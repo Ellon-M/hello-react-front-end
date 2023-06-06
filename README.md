@@ -38,7 +38,7 @@
 - React
 - Redux
 
-## [Rails Backend Link](https://github.com/Ellon-M/hello-rails-back-end)
+## [Rails Backend Link](https://github.com/Ellon-M/hello-rails-backend)
 
 
 <details>
