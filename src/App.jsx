@@ -1,7 +1,8 @@
 import Greeting from './components/Greeting';
 
 function App() {
-  const csrfToken = document.head.querySelector('[name=csrf-token]').content;
+  const csrfToken = document.head.querySelector('[name=csrf-token]')?.content;
+  console.log(csrfToken);
 
   const containerStyles = {
     display: 'flex',
@@ -14,12 +15,10 @@ function App() {
 
   return (
     <>
-      return (
       <div style={containerStyles}>
         <h3>Random Greeting</h3>
-        <Greeting csrfToken={csrfToken} />
+        <Greeting csrfToken={csrfToken}/>
       </div>
-      );
     </>
   );
 }
