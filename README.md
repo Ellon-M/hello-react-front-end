@@ -38,7 +38,7 @@
 - React
 - Redux
 
-## [Rails Backend Link](https://github.com/Ellon-M/hello-rails-back-end)
+## [Rails Backend Link](https://github.com/Ellon-M/hello-rails-backend)
 
 
 <details>
@@ -119,7 +119,7 @@ Example command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Ellon-M/hello-react-frontend/issues).
+Feel free to check the [issues page](https://github.com/Ellon-M/hello-react-front-end/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
