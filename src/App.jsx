@@ -1,4 +1,5 @@
 import Greeting from './components/Greeting';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   const csrfToken = document.head.querySelector('[name=csrf-token]')?.content;
@@ -17,7 +18,9 @@ function App() {
     <>
       <div style={containerStyles}>
         <h3>Random Greeting</h3>
-        <Greeting csrfToken={csrfToken}/>
+        <Routes>
+          <Route path="/" element={<Greeting csrfToken={csrfToken}/>} />
+        </Routes>
       </div>
     </>
   );
